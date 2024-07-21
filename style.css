@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #fff;
+}
+
+header {
+    background: transparent;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.get-started {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.see-pricing {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-box {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-box h2 {
+    margin-top: 0;
+}
+
+.signup-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-box form input,
+.signup-box form select,
+.signup-box form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.signup-box form button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
